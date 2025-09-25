@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Run a jac file",
+            "program": "${command:extension.jaclang-extension.getJacPath}",
+            "args": "run ${file}"
+        }
+    ]
+}
